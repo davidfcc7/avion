@@ -5,10 +5,17 @@
  */
 package com.mycompany.avion;
 
+import java.io.IOException;
+import java.text.ParseException;
+
 /**
  *
  * @author David
  */
 public class Main {
     
+    public static void main (String[] args) throws IOException, ParseException {
+        Principal inicio = new Principal();
+        //inicio.Menu();
+    }
 }
